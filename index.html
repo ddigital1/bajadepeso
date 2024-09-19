@@ -1,0 +1,624 @@
+   <?php
+include_once "contar_visita.php";
+?>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  
+ <PageMap>
+  <DataObject type="thumbnail">
+    <Attribute name="src" value="images/naturallife.png"/>
+    <Attribute name="width" value="100"/>
+    <Attribute name="height" value="130"/>
+  </DataObject>
+</PageMap>
+<!--
+<PageMap>
+  <DataObject type="publication">
+    <Attribute name="author" value="NaturalLife"/>
+    <Attribute name="date" value="14 de marzo de 2009"/>
+    <Attribute name="category" value="Empresa/Empresa internacional"/>
+  </DataObject>
+</PageMap>
+-->
+<!--
+<DataObject type="action">
+ <Attribute name="label" value="Descargar"/>
+ <Attribute name="url" value="http://www.natural.com/document_downloads/20258723?extension=pdf"/>
+ <Attribute name="class" value="descargar"/>
+</DataObject>
+-->
+
+      <meta name="thumbnail" content="images/naturallife.png" />
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags -->
+      <meta name="description" content="Baja de Peso">
+      <meta name="author" content="Natural life">
+      <link rel="icon" href="images/favicon.ico">
+      <title>Bajar de peso aqui</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <!-- Custom styles-->
+      <link href="css/owl.carousel.css" rel="stylesheet">
+      <link href="css/owl.theme.default.min.css"  rel="stylesheet">
+      <link href="css/style2.css" rel="stylesheet">
+     
+
+
+      
+      
+      <script language="JavaScript">
+
+     window.onload = function () {
+         document.addEventListener("contextmenu", function (e) {
+             e.preventDefault();
+         }, false);
+         document.addEventListener("keydown", function (e) {
+             //document.onkeydown = function(e) {
+             // "I" key
+             if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                 disabledEvent(e);
+             }
+             // "J" key
+             if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                 disabledEvent(e);
+             }
+             // "S" key + macOS
+             if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                 disabledEvent(e);
+             }
+             // "U" key
+             if (e.ctrlKey && e.keyCode == 85) {
+                 disabledEvent(e);
+             }
+             // "F12" key
+             if (event.keyCode == 123) {
+                 disabledEvent(e);
+             }
+         }, false);
+         function disabledEvent(e) {
+             if (e.stopPropagation) {
+                 e.stopPropagation();
+             } else if (window.event) {
+                 window.event.cancelBubble = true;
+             }
+             e.preventDefault();
+             return false;
+         }
+     }
+//edit: removed ";" from last "}" because of javascript error
+</script> 
+  </head>
+  
+  <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>    <script src="js/jquery.vide.min.js"></script> 
+  
+  <body id="page-top" oncontextmenu = "return false" onselectstart = "return false"  ondragstart = "return false">
+   <?php
+# Incluir el contador de visitas
+include_once "contar_visita.php";
+?>
+  <div class="loader"></div>
+      <!-- Navigation -->
+      <nav class="navbar navbar-default navbar-static-top dark-bg">
+      
+          <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header page-scroll dark-bg">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="#page-top"><img src="images/logo-1.png"  width="150" alt="Más Rapido"></a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="hidden">
+                          <a href="#page-top"></a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#" data-toggle="modal" data-target="#Modal-1"><i class="fa fa-check-square-o"></i>Baja de peso <img src="images/new.png"  width="40" alt="Más Rapido"></a></li>
+                      
+                      <li>
+                          <a class="page-scroll" href="#" data-toggle="modal" data-target="#Modal-1"><i class="fa fa-check-square-o"></i>Sin Rebote</a></li>
+                          <li>
+                          <a class="page-scroll" href="#" data-toggle="modal" data-target="#Modal-1"><i class="fa fa-check-square-o"></i>Sin Dejar de comer </a>
+                      </li>	
+                                              
+                      <li>
+                          <a class="page-scroll" href="#" data-toggle="modal" data-target="#Modal-1"><i class="fa fa-check-square-o"></i>Reduce tallas</a>
+                      </li>
+                      
+                                          
+                      
+                     
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+      </nav>
+      <!-- Header -->
+      <header>
+          <div class="container">
+              <p align="center"><img src="images/bg-t.webp" alt="img02" class="img-responsive" /></p>            
+              
+          </div>
+      </header>
+      <section id="inicio" class=" light-bg">
+          <div class="container">
+              
+              <div class="row row-0-gutter">
+           <div class="section-title" align="center">
+          
+                          <h2>Natural y 100% Efectivo  <br>
+             Ayuda a la eliminación de grasa en el cuerpo,  actúa como un dilatador del tejido adiposo, suavizando y liberando progresivamente la grasa corporal acumulada en el tejido  para desecharla posteriormente a través de las heces, sudor y orina.</h2>
+           <p>Raíz de Tejocote  que se prepara en micro-dosis bajo un embasado con estricto Control de Calidad que da como resultado un producto totalmente confiable. </p>
+                            <p align="center"><img src="images/garantizado-1.png" alt="img02" class="img-responsive" /></p> 
+              <h2>Bienvenido <br>natural life</h2>
+                </div>
+              <!-- start portfolio item 1-->
+              <div class="col-md-4 col-0-gutter">
+                  <div class="ot-portfolio-item">
+                      <figure class="effect-bubba">
+                          <img src="images/portfolio-01.avif" alt="img02" class="img-responsive" />
+                          <figcaption>
+                        
+                              <!--<h2>Ansiedad</h2>-->
+                            <!--<p align="center"><img src="images/click-2.gif" width="90%" alt="img02" class="img-responsive" /></p>--><a href="#" data-toggle="modal" data-target="#Modal-1">Ver Más</a>
+                          </figcaption>
+                      </figure>
+                      <div class="row">
+                  <div class="text-center">
+                      <div class="section-title">
+                        <!--<h2>Ansiedad</h2>-->
+                        
+                        <p><a href="#" class=" btn btn-xl"  data-toggle="modal" data-target="#Modal-1">ver +</a></p>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+              </div>
+              <!-- end portfolio item -->
+              <!-- start portfolio item 2-->
+              <div class="col-md-4 col-0-gutter">
+                  <div class="ot-portfolio-item">
+                      <figure class="effect-bubba">
+                          <img src="images/portfolio-02.avif" alt="img02" class="img-responsive" />
+                          <figcaption>
+                              <!--<h2>Estres</h2>-->
+                            <!--<p align="center"><img src="images/click-2.gif" width="90%" alt="img02" class="img-responsive" /></p>--><a href="#" data-toggle="modal" data-target="#Modal-1">Ver Más</a>
+                          </figcaption>
+                      </figure>
+                      <div class="row">
+                  <div class="text-center">
+                      <div class="section-title">
+                       <!-- <h2>Estres</h2> -->
+                        
+                        <p><a href="#" class=" btn btn-xl"  data-toggle="modal" data-target="#Modal-1">ver +</a></p>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+              </div>
+              <!-- end portfolio item -->
+              
+              <!-- start portfolio item 3.2-->
+              <div class="col-md-4 col-0-gutter">
+                  <div class="ot-portfolio-item">
+                      <figure class="effect-bubba">
+                          <img src="images/portfolio-03.avif" alt="img02" class="img-responsive" />
+                          <figcaption>
+                              <!--<h2>Cabello</h2>-->
+                            <!--<p align="center"><img src="images/click-2.gif" width="90%" alt="img02" class="img-responsive" /></p>--><a href="#" data-toggle="modal" data-target="#Modal-1">Ver Más</a>
+                          </figcaption>
+                      </figure>
+                      <div class="row">
+                  <div class="text-center">
+                      <div class="section-title">
+                        <!-- <h2>gotas</h2> -->
+                       
+                        <p><a href="#" class=" btn btn-xl"  data-toggle="modal" data-target="#Modal-1">ver +</a></p>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+              </div>
+              <!-- end portfolio item -->
+          </div>
+                  <div class="col-lg-12 text-center">
+                      <div class="section-title">
+                          <h2>Ejercicio + alimentación + salud emocional</h2>
+                   <img src="images/logo-1.png"  />
+                      <h3><b> "La Raiz de tecojote mejoran tu calidad de vida" </b></h3>
+                          <p class="section-content-para">
+                <b>Reduce tallas y peso</b> . <i class="fa fa-check-square-o"></i><br>
+Ayuda a la reducción de peso y obesidad a través de la eliminación de grasa del cuerpo.<br>
+
+<b>Desintoxica</b> . <i class="fa fa-check-square-o"></i><br>
+Suaviza y libera la grasa del tejido muscular, por medio de los desechos naturales del organismo.<br>
+
+<b>Mejora la salud</b> . <i class="fa fa-check-square-o"></i><br>
+Disminuye el colesterol y los triglicéridos en la sangre, evitando así enfermedades cardíacas.<br>
+
+<b>Reafirma la piel y músculos</b> . <i class="fa fa-check-square-o"></i><br>
+La elastina y el colágeno se mantienen intactos, ya que no destruye las células musculares del tejido, permitiendo que la piel se recupere y vuelva a estar firme.<br>
+
+<b>Favorece el metabolismo</b> . <i class="fa fa-check-square-o"></i><br>
+Su consumo reduce significativamente las ganas de comer. Además, mejora el funcionamiento del tracto intestinal, por lo que alivia las hemorroides, el estreñimiento y disminuye el riesgo de cáncer de colon..
+                  </p>
+                
+             
+                
+                          
+                              
+                      </div>
+                  </div>
+              
+              <div class="row">
+                  <!-- about module -->
+                  <div class="col-md-3 text-center">
+                      <div class="mz-module-about">
+                          <i class="fa fa-solid fa-leaf ot-circle"></i>
+                          <h3>Natural 100% <i class="fa fa-check-square-o"></i></h3>
+                          <p>Sin químicos o sustancias peligrosas que dañen tu cuerpo.</p>
+                      </div>
+                  </div>
+                  <!-- end about module -->
+                  <!-- about module -->
+                  <div class="col-md-3 text-center">
+                      <div class="mz-module-about">
+                          <i class="fa  fa-certificate  ot-circle"></i>
+                          <h3>Garantía <i class="fa fa-check-square-o"></i></h3>
+                          <p>Sin dietas, sin ejercicios y sin efecto rebote.</p>
+                      </div>
+                  </div>
+                  <!-- end about module -->
+                  <!-- about module -->
+                  <div class="col-md-3 text-center">
+                      <div class="mz-module-about">
+                          <i class="fa fa-external-link-square fa-heartbeat ot-circle"></i>
+                          <h3>Salud <i class="fa fa-check-square-o"></i></h3>
+                          <p>ayuda a reducir el colesterol, limpia el hígado graso y desintoxica el colon.</p>
+                      </div>
+                  </div>
+                  <!-- end about module -->
+                  <!-- about module -->
+                  <div class="col-md-3 text-center">
+                      <div class="mz-module-about">
+                          <!--<i class="fa fa-external-link-square fa-cloud-upload ot-circle"></i>-->                         <i class="fa fa-brands fa-calendar-check-o  ot-circle"></i>
+                          <h3>Resultados <i class="fa fa-check-square-o"></i></h3>
+                          <p> completamente visibles entre los 3 y 6 meses de tratamiento.</p>
+                      </div>
+                  </div>
+                  <!-- end about module -->
+              </div>
+          </div>
+          <!-- /.container -->
+      </section>
+      
+      <section id="menu">
+          <div class="container ">
+          
+          <div class="row row-0-gutter">
+           <div class="section-title" align="center">
+                          <h2> Bajas por que bajas </h2>
+                    </div>
+              <!-- start portfolio item 1-->
+              <div class="col-md-4 col-0-gutter">
+                  <div class="ot-portfolio-item">
+                      <figure class="effect-bubba">
+                          <img src="images/portfolio-1.avif" alt="img02" class="img-responsive" />
+                          <figcaption>
+                        
+                              <h2>Tomar despues de comer</h2>
+                            <p>Más Inf. Clic Aquí.</p> 
+                              <a href="#" data-toggle="modal" data-target="#Modal-1">Ver Más</a>
+                          </figcaption>
+                      </figure>
+                      <div class="row">
+                  <div class="text-center">
+                      <div class="section-title">
+                       <!-- <h2>Pedir</h2>-->
+                        
+                        <p><a href="#" class=" btn btn-xl"  data-toggle="modal" data-target="#Modal-1">Compra Ya</a></p>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+              </div>
+              <!-- end portfolio item -->
+              <!-- start portfolio item 2-->
+              <div class="col-md-4 col-0-gutter">
+                  <div class="ot-portfolio-item">
+                      <figure class="effect-bubba">
+                      
+                          <img src="images/portfolio-2.avif" alt="img02" class="img-responsive" />
+                          <figcaption>
+                              <h2>Tomar despues de comer</h2>
+                            <p>Más Inf. click Aquí </p>
+                              <a href="#" data-toggle="modal" data-target="#Modal-1">Ver Más</a>
+                          </figcaption>
+                      </figure>
+                      <div class="row">
+                  <div class="text-center">
+                      <div class="section-title">
+                        <!--<h2>....</h2>-->
+                        
+                        <p><a href="#" class=" btn btn-xl"  data-toggle="modal" data-target="#Modal-1">Compra ya</a></p>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+              </div>
+              <!-- end portfolio item -->
+              <!-- start portfolio item 3-->
+              <div class="col-md-4 col-0-gutter">
+                  <div class="ot-portfolio-item">
+                      <figure class="effect-bubba">
+                          <img src="images/portfolio-3.avif" alt="img02" class="img-responsive" />
+                          <figcaption>
+                              <h2>Tomar despues de comer</h2>
+                            <p>Más Inf. click Aquí</p>
+                              <a href="#" data-toggle="modal" data-target="#Modal-1">Ver Más</a>
+                          </figcaption>
+                      </figure>
+                      <div class="row">
+                  <div class="text-center">
+                      <div class="section-title">
+                       <!-- <h2>....</h2>-->
+                       
+                        <p><a href="#" class=" btn btn-xl"  data-toggle="modal" data-target="#Modal-1">Compra ya</a></p>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+              </div>
+              <!-- end portfolio item -->
+              
+          </div>
+          
+          
+          </div><!-- end container -->
+      </section>
+
+      
+      
+    
+<div data-vide-bg="-video/3">
+<div class="banner video-responsive">
+  <header2>
+    <div class="container">
+     
+      
+    </div>
+  </header2>
+</div>
+</div>
+      <div id="pedir"></div>
+      <section id="contacto" class="ligth-bg">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <div class="section-title">
+                          <h2> "Imagina poder darle un reset a tu sistema"</h2>
+                    </div>
+                          <div class="section-text col-lg-12 ">
+                          <p>Se acabó ... No más, Falta de Sueño y de Descanso...!!  <br> 
+                          Ayuda a que haya Menos  Ansiedad Menos Estrés. Mejor Memoria Concentración y Claridad</p>
+                          
+                      </div>
+                      <h2> "Reactivate"</h2>
+                  </div>
+              </div>
+              
+              <div class="row">
+    <div class="col-md-4" >
+      <div class="section-text" align="center">
+        <h4>Distribuidor de Productos Naturales </h4>
+        <p>Plaza Zaragoza Local 1</p>
+        
+        <p>Centro Histórico, CP. 78000 San Luis, S.L.P.</p>
+        <a href="tel:+524444221669" target="_blank"><p><i class="fa fa-phone"></i> 4444221669</p></a> 
+  <!--  <a href="mailto://naturallife@directoslp.com" target="_blank">
+        <p><i class="fa fa-envelope"></i> naturallife@directoslp.com</p></a>-->
+        
+         </div>
+      
+    </div>
+    <div class="col-md-4">
+      <div class="section-text" align="center">
+     <p> <img src="images/logo-1.png"  width="150" alt="NaturalLife"></p>
+        <!--<h4>Centro de Servicio Zona Poniente:</h4>
+        <p>....</P>
+       <p> Lunes a Viernes de 11 AM a 7PM</p>
+        <p>Sábado de 11 AM a 3 PM</p>-->
+        <a href="tel:+524444221669" target="_blank">
+        <p><i class="fa fa-phone"></i> 444 422 1669</p>
+        </a>
+        <!--<p><i class="fa fa-clock-o"></i> <span class="day">Lunes a Sabado:</span><br>
+          <span>11 AM a 3 PM</span><br>
+          <span>5 PM a 8 PM</span></p>
+        
+        <p><i class="fa fa-clock-o"></i> <span class="day">Domingo:</span><br>
+          <span>Cerrado</span></p>
+          <p><a href="#faq-1" class=" btn btn-xl" target="_blank">Preguntas frecuentes</a></p>-->
+      </div>
+    </div>
+   
+    <div class="col-md-4" align="center" id="fast">
+      <!-- Call Me Form -->
+      <div class="section-text">
+        <h4>Servicio<br>A Domicilio</h4>
+        
+      </div>
+     <p><a href="https://api.whatsapp.com/send?phone=+524444221669&text=Hola%20Quiero%20Bajar%20De%20Peso%20Me%20Interesa%20Este%20Producto%20Mi%20Nombre%20Es%20:" class=" btn btn-xl" target="_blank">Pedir Aquí</a><br><a href="https://www.google.com/maps/dir//Ignacio+Zaragoza+875+Centro+Historico+78000+San+Luis+Potos%C3%AD,+S.L.P./@22.1473505,-100.9748625,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x842aa203fc81af53:0x9f987d63e69595fd!2m2!1d-100.9748625!2d22.1473505?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D" class=" btn btn-xl" target="_blank">como llegar</a></p>
+      <!-- end of call me form -->
+    </div>
+  </div>
+         
+    </div>	
+    </div>
+      </section>
+      <p id="back-top">
+          <a href="#top"><i class="fa fa-angle-up"></i></a>
+      </p>
+      
+      <!--<div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.43899910787!2d-100.97743742513438!3d22.147355448422655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa203fc81af53%3A0x9f987d63e69595fd!2sIgnacio%20Zaragoza%20875%2C%20Centro%20Historico%2C%2078000%20San%20Luis%20Potos%C3%AD%2C%20S.L.P.!5e0!3m2!1ses!2smx!4v1707298259994!5m2!1ses!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>-->
+      
+      <footer>
+      
+          <div class="container text-center">
+              <p>2023 <a href="https://ddigital1.github.io/centro"><span><?php
+$visitas = file_get_contents("contador.txt");
+printf(" %d ", $visitas); ?></span><span>Natural life</span></a></p>
+          </div>
+      </footer>
+      <!-- Modal for portfolio item 1 -->
+      <div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="Modal-label-1">Reduce tallas 100% Natural</h4>
+                  </div>
+                  <div class="modal-body">
+                      <img src="images/portfolio-03.avif" alt="img01" class="img-responsive" />
+                    
+                      <div class="modal-works"><span>Raiz</span><span>de Tejocote</span><span> Presentacion de exportacion</span> </div>
+                      <p> MODO DE USO: 1 pza. despues de cada comida<br><br> 
+  Reduce tallas y peso .
+  Desintoxica .
+  Mejora la salud . 
+  Favorece el metabolismo . 
+</p>
+  <p>Su consumo reduce significativamente las ganas de comer. Además, mejora el funcionamiento del tracto intestinal. <a href="#" target="_blank"> Ver Más</a></p>
+                      
+                      <p><b>IMPORTANTE: Mes 1 Desintoxicación, comer alimentos alto en proteína y potasio + 2 Litros de Agua diario, porque va  limpiar todo el tracto intestinal.</b></p>
+                     <p><b> NOTA: No es un medicamento la responsabilidad es exclusiva de quien lo usa</b></p>
+                      <p> Envio a domicilio con cargo</p>
+                      
+                      
+                  </div>
+                  
+                  <div class="modal-footer">
+                  <div align="center">
+                  <a href="https://api.whatsapp.com/send?phone=524444221669&text=Hola%20Quiero%20Bajar%20De%20Peso%20Me%20Interesa%20Este%20Producto%20Mi%20Nombre%20Es:" class="page-scroll btn btn-xl" target="_blank">Pedir x WhatsApp</a> . <a href="tel:524444221669" class="page-scroll btn btn-xl" target="_blank">llamar</a>
+                 
+                   
+                  
+                      <button type="button" class="btn btn-xl" data-dismiss="modal" >cerrar</button>
+                       </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      
+       
+
+      <!-- Bootstrap core JavaScript
+          ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/cbpAnimatedHeader.js"></script>
+      <script src="js/jquery.appear.js"></script>
+      <script src="js/SmoothScroll.min.js"></script>
+      <script src="js/mooz.themes.scripts.js"></script>
+  <style>    
+      #contenedor {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+display:block;
+}
+#contenedor iframe,
+#contenedor object,
+#contenedor embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+</style>
+<style>
+  .video {  
+/* min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;*/ 
+position: fixed;    
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%); 
+
+z-index: -100;
+
+background-size: cover;
+
+}
+      </style>
+<style>
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+  </style>
+  <!--whatsapp-->
+
+
+  <!--whasapp-->
+  <style>
+  .loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('images/logo-1.png') 50% 50% no-repeat rgb(0,0,0);
+  opacity: .99;
+  
+}
+  </style>
+<script type="text/javascript">
+$(window).load(function() {
+  $(".loader").fadeOut("slow");
+  $('#link').attr('href','https://directoslp.com/relax');
+});
+  
+  
+</script>
+
+
+
+
+             
+  </body>
+</html>
